@@ -27,7 +27,7 @@ def notify(table , feild , up):
     res = db_subs.subscription.find_one({'table':table ,'feild':feild})
     print res['emails']
     msg = up+" on collection "+table+" on field "+feild
-    send_mail('DBtracker@mymail.com',res['emails'],'subscribed operation in DB',msg)
+    send_mail("smartsn123@gmail.com",res['emails'],'subscribed operation in DB',msg)
 
 def process_operation(doc):
     op  = doc['op']

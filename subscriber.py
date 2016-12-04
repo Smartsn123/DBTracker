@@ -57,12 +57,7 @@ def start_server():
 
 
 if __name__ == '__main__':
-  p1 = Process(target=start_server)
-  p1.start()
-  p2 = Process(target=tracker)
-  p2.start()
-  p1.join()
-  p2.join()
+  start_server()
 
 
 
