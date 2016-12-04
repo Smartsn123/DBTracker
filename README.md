@@ -40,4 +40,10 @@ server.quit()
 
 
 
+To Test :
+
+run mongo in shell, make insertion deletion or updation to the feilds you subscribed from the subscriber server
+
+
+
 
